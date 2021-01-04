@@ -4,9 +4,18 @@
 }
 body{
     font-family: popins;
+    margin: 0;
 }
+section{height: 500px;padding-bottom: 150px;}
+.top-banner{background-image: url("assets/images/top-banner.png"); background-repeat: no-repeat;}
 .welcome{text-transform: uppercase;}
 .name-color{color: orange;}
-.hire-btn{text-decoration: none; background-color: orange; color: whitesmoke; padding: 10px 20px; border-radius: 15px;text-transform: uppercase;}
+.hire-btn{text-decoration: none; color: whitesmoke; background-image: linear-gradient(45deg,red,green); padding: 10px 20px; border-radius: 15px;text-transform: uppercase;}
 .half-width{float: left; width: 40%; margin-left: 2%; padding-left: 5%;}
 .half-width img{width: 100%;}
+.hero{background-image: url("assets/images/dream-bg.png"); background-repeat: no-repeat;background-position: right;}
+.experience{background-image: url("assets/images/exp-bg.png"); background-repeat: no-repeat; background-position: left;}
+.experience-highlight{color: tomato;}
+.experience-card{height: 80%; background-color: whitesmoke; border-left: 3px solid; border-image: linear-gradient(180deg, lightSalmon, tomato); border-image-slice: 1; box-shadow: 10px 10px 40px thistle; margin: 50px; box-sizing: border-box;}
+.learning-card{border-image: linear-gradient(180deg,blue,cyan); border-image-slice: 1;}
+footer p{text-align: center; font-size: 12px;}
